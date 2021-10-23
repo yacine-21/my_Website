@@ -22,8 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/tailwind.config.js
+
 /yarn.lock
-/craco.config.js
-/package.json
+
 /package-lock.json
