@@ -1,12 +1,8 @@
 import React from "react";
-import Header from "../components/Header/Header";
+import Loader from "../components/Loader/Loader";
 
 function HomePage() {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <Loader />;
 }
 
 export default HomePage;
