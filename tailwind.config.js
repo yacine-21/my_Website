@@ -23,6 +23,7 @@ module.exports = {
       inset: ["checked"],
       zIndex: ["hover", "active"],
     },
+    display: ["responsive", "group-hover", "group-focus"],
   },
   plugins: [],
   future: {
