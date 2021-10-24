@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/Header";
-import Contact from "../components/Contact";
+import Portfolio from "../components/Portfolio";
 
 const Portolio = () => {
   return (
     <>
       <Header />
-      <Contact />
+      <Portfolio />
     </>
   );
 };

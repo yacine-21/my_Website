@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/Header";
-import Contact from "../components/Contact";
+import Resume from "../components/Resume";
 
 const Portolio = () => {
   return (
     <>
       <Header />
-      <Contact />
+      <Resume />
     </>
   );
 };

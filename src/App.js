@@ -1,9 +1,12 @@
 import "tailwindcss/tailwind.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Accueil from "./view/Accueil";
+import Portfolio from "./view/Porfolio";
 import Homepage from "./view/HomePage";
 import error_404 from "./view/Error";
+import Contact from "./view/Contact";
+import Services from "./view/Services";
+import Resume from "./view/Resume";
 
 const App = () => {
   return (
@@ -11,7 +14,10 @@ const App = () => {
       <Router>
         <Switch>
           <Route path="/" exact component={Homepage} />
-          <Route path="/accueil" exact component={Accueil} />
+          <Route path="/portfolio" exact component={Portfolio} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/services" exact component={Services} />
+          <Route path="/resume" exact component={Resume} />
           <Route component={error_404} />
         </Switch>
       </Router>

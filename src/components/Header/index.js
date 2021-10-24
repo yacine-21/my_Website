@@ -13,16 +13,19 @@ function Header() {
               <div className={styles.header_header}>
                 <nav className={styles.nav_header}>
                   <a className={styles.item_header} href="/">
-                    <span className={styles.item_li_header}>Element</span>
+                    <span className={styles.item_li_header}>Home</span>
                   </a>
-                  <a className={styles.item_header} href="/">
-                    <span className={styles.item_li_header}>Form</span>
+                  <a className={styles.item_header} href="/portfolio">
+                    <span className={styles.item_li_header}>Portfolio</span>
                   </a>
-                  <a className={styles.item_header} href="/">
-                    <span className={styles.item_li_header}>Commerce</span>
+                  <a className={styles.item_header} href="/resume">
+                    <span className={styles.item_li_header}>Resume</span>
                   </a>
-                  <a className={styles.item_header} href="/">
-                    <span className={styles.item_li_header}>Navigation</span>
+                  <a className={styles.item_header} href="/service">
+                    <span className={styles.item_li_header}>Service</span>
+                  </a>
+                  <a className={styles.item_header} href="/contact">
+                    <span className={styles.item_li_header}>Contact</span>
                   </a>
                 </nav>
               </div>
@@ -38,8 +41,11 @@ function Header() {
           </div>
           <div className="flex items-center">
             <nav className="font-sen text-red-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
-              <a href="/works" className={styles.item_open_header}>
-                Works
+              <a href="/" className={styles.item_open_header}>
+                Home
+              </a>
+              <a href="/portfolio" className={styles.item_open_header}>
+                Portfolio
               </a>
               <a href="/resume" className={styles.item_open_header}>
                 Resume
