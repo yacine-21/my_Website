@@ -1,3 +1,4 @@
+import "tailwindcss/tailwind.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Accueil from "./view/Accueil";
