@@ -1,4 +1,40 @@
+.container_header{
+    @apply w-screen h-screen bg-white  absolute z-40 lg:hidden;
+}
+.bloc1_header{
+    @apply flex flex-col sm:flex-row items-center justify-center sm:justify-around;
+}
+.header_header{
+    @apply w-72 h-screen;
+}
+.nav_header{
+    @apply mt-10 px-6;
+}
 
-.item1{
-    @apply text-red-800
+.header2_header{
+    @apply h-24 sm:h-32 flex items-center z-30 w-full;
+}
+
+.bloc2_header{
+    @apply container mx-auto px-6 flex items-center justify-between;
+}
+
+.blocMail_header{
+    @apply uppercase text-red-800  font-black text-3xl flex items-center;
+}
+
+.mail_header{
+    @apply text-xs ml-3 mt-1;
+}
+
+.item_header{
+    @apply hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors  duration-200  text-gray-600  rounded-lg;
+}
+
+.item_open_header{
+    @apply py-2 px-6 flex hover:text-red-600;
+}
+
+.item_li_header{
+    @apply mx-4 text-lg font-normal;
 }

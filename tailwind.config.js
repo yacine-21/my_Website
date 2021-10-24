@@ -1,6 +1,5 @@
 module.exports = {
   important: true,
-  // Active dark mode on class basis
   darkMode: "class",
   i18n: {
     locales: ["en-US"],
@@ -10,7 +9,7 @@ module.exports = {
   //   content: ["./pages/**/*.tsx", "./components/**/*.tsx"],
   //   // These options are passed through directly to PurgeCSS
   // },
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
     extend: {
       backgroundImage: (theme) => ({}),

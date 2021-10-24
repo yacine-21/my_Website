@@ -1,0 +1,19 @@
+.footer{
+    @apply flex flex-col  h-36 items-center justify-between px-6  bg-red-50  sm:flex-row;
+}
+
+.sentence_footer{
+    @apply text-xl font-bold text-red-800  hover:text-red-500 ;
+}
+
+.legalMention{
+    @apply py-2 text-red-800 sm:py-0;
+}
+
+.item_footer{
+    @apply mx-2 text-gray-600  hover:text-gray-500 ;
+}
+
+.images_footer{
+    @apply w-10 h-8 fill-current hover:opacity-30;
+}

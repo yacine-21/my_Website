@@ -1,8 +1,8 @@
 import React from "react";
-import Loader from "../components/Loader/Loader";
+import Homepage from "../components/Homepage/Homepage";
 
 function HomePage() {
-  return <Loader />;
+  return <Homepage />;
 }
 
 export default HomePage;
