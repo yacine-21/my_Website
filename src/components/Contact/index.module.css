@@ -1,0 +1,75 @@
+
+.section_contact{
+    @apply  text-red-600 relative;
+}
+
+.container_contact{
+    @apply container px-5 py-24 mx-auto;
+}
+
+.bloc_text{
+    @apply flex flex-col text-center w-full mb-12;
+}
+
+.contactUs{
+    @apply sm:text-3xl text-2xl font-medium mb-4 text-red-800;
+}
+
+.p_contact{
+    @apply lg:w-2/3 mx-auto leading-relaxed text-base;
+}
+
+.input_contact{
+    @apply w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-600 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
+}
+
+.blocInput{
+    @apply relative;
+}
+
+.sousBlocInput{
+    @apply lg:w-1/2 md:w-2/3 mx-auto;
+}
+
+.sousBlocInputFlex{
+    @apply flex flex-wrap -m-2;
+}
+
+.inputMarge{
+    @apply p-2 w-1/2;
+}
+
+.labelInput{
+    @apply leading-7 text-sm text-red-600;
+}
+
+.textAreaContact{
+    @apply w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-600 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out;
+}
+.buttonContact{
+    @apply flex mx-auto text-white bg-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg;
+}
+
+.textInfoContainer  {
+    @apply p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center;
+}
+
+.containerInput{
+    @apply p-2 w-full;
+}
+    
+.images_footer{
+    @apply w-10 h-8 fill-current hover:opacity-30;
+}
+
+.infoContactSpacing{
+    @apply my-5 text-red-600;
+}
+
+.emoji{
+    @apply w-10 h-10;
+}
+
+.bitmoji{
+    @apply rounded-full w-40 mx-auto;
+}
