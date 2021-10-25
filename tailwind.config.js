@@ -13,6 +13,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({}),
+      dropShadow: ["hover", "focus"],
     },
   },
   variants: {
@@ -21,6 +22,7 @@ module.exports = {
       borderColor: ["checked"],
       inset: ["checked"],
       zIndex: ["hover", "active"],
+      borderWidth: ["hover"],
     },
     display: ["responsive", "group-hover", "group-focus"],
   },

@@ -1,0 +1,7 @@
+.container{
+    @apply w-screen flex justify-center items-center flex-wrap  flex-col md:flex-row lg:flex-row;
+}
+
+.title{
+    @apply text-center text-3xl underline m-8;
+}
