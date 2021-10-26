@@ -11,12 +11,20 @@
     @apply mt-10 px-6;
 }
 
+.navHeaderBloc{
+    @apply  text-red-800 dark:text-white uppercase text-lg lg:flex lg:flex-row items-center hidden;
+}
+
 .header2_header{
-    @apply h-24 sm:h-32 flex items-center z-30 w-full;
+    @apply h-24 sm:h-32 flex items-center z-30 w-full border-b-2 border-red-200 ;
 }
 
 .bloc2_header{
     @apply container mx-auto px-6 flex items-center justify-between;
+}
+
+.openMenuButton{
+    @apply flex flex-col h-12 w-12 border-2 border-red-500 rounded justify-center items-center group lg:hidden z-50;
 }
 
 .blocMail_header{
@@ -24,17 +32,17 @@
 }
 
 .mail_header{
-    @apply text-xs ml-3 mt-1;
+    @apply  text-xs ml-3 mt-1;
 }
 
 .item_header{
-    @apply hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors  duration-200  text-gray-600  rounded-lg;
+    @apply hover:text-red-800 hover:bg-gray-100 flex items-center p-2 my-6 transition-colors  duration-200  text-red-600  rounded-lg;
 }
 
 .item_open_header{
-    @apply py-2 px-6 flex hover:text-red-600;
+    @apply font-myFont py-2 px-6 flex hover:text-red-600 hover:bg-gray-100;
 }
 
 .item_li_header{
-    @apply mx-4 text-lg font-normal;
+    @apply font-myFont mx-4 text-5xl font-normal;
 }

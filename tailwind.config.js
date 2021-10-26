@@ -5,12 +5,16 @@ module.exports = {
     locales: ["en-US"],
     defaultLocale: "en-US",
   },
+
   // purge: {
   //   content: ["./pages/**/*.tsx", "./components/**/*.tsx"],
   //   // These options are passed through directly to PurgeCSS
   // },
   purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
+    fontFamily: {
+      myFont: ["Kaushan Script", "cursive"],
+    },
     extend: {
       backgroundImage: (theme) => ({}),
       dropShadow: ["hover", "focus"],

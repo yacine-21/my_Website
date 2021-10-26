@@ -1,5 +1,5 @@
 .container{
-    @apply w-screen flex justify-center items-center flex-wrap  flex-col md:flex-row lg:flex-row;
+    @apply  w-screen flex justify-center items-center flex-wrap  flex-col md:flex-row lg:flex-row;
 }
 
 .title{

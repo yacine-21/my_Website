@@ -2,7 +2,8 @@
 
 
 .main{
-    @apply  font-mono bg-white relative overflow-hidden;
+    @apply font-myFont bg-white relative overflow-hidden;
+    height: 80vh;
 }
 .bloc{
     @apply hidden md:block absolute -bottom-28 -left-32 w-96 h-96;

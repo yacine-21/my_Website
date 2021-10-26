@@ -40,7 +40,7 @@ function Header() {
             <span className={styles.mail_header}>yacinelyoubi37@gmail.com</span>
           </div>
           <div className="flex items-center">
-            <nav className="font-sen text-red-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+            <nav className={styles.navHeaderBloc}>
               <a href="/" className={styles.item_open_header}>
                 Home
               </a>
@@ -58,7 +58,7 @@ function Header() {
               </a>
             </nav>
             <button
-              className="flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group lg:hidden z-50"
+              className={styles.openMenuButton}
               onClick={() => setIsOpen(!isOpen)}
             >
               <div

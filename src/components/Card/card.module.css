@@ -1,3 +1,5 @@
+
+
 .container{
     @apply overflow-hidden hover:shadow-2xl rounded-3xl h-2/3  w-60 md:w-80 cursor-pointer mr-10 my-5  hover:border-l-4 border-red-400 border-b-4 ;
 }
@@ -10,11 +12,11 @@
 }
 
 .textType{
-    @apply text-red-600   font-medium;
+    @apply font-myFont text-red-600 font-medium;
 }
 
 .textTitle{
-    @apply text-gray-800 dark:text-white text-xl font-medium mb-2;
+    @apply font-myFont text-gray-800 dark:text-white text-xl font-medium mb-2;
 }
 
 .textDescription{

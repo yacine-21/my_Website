@@ -10,7 +10,7 @@ const Footer = () => {
 
       <p className={styles.legalMention}>All rights reserved</p>
 
-      <div className="flex -mx-2">
+      <div className={styles.footerBlocIcon}>
         <a
           href="https://twitter.com/Yacine_D_21"
           className={styles.item_footer}

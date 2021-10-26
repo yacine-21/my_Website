@@ -1,5 +1,5 @@
 .footer{
-    @apply flex flex-col  h-44 xl:h-36 items-center justify-between px-7  bg-red-50  sm:flex-row sm:h-36;
+    @apply flex flex-col  h-44 xl:h-52 items-center justify-between px-7  bg-red-50  md:flex-row sm:h-36;
 }
 
 .sentence_footer{
@@ -12,6 +12,10 @@
 
 .item_footer{
     @apply mx-2 text-gray-600  hover:text-gray-500 ;
+}
+
+.footerBlocIcon{
+    @apply flex flex-row -mx-2 md:flex-col;
 }
 
 .images_footer{
