@@ -13,7 +13,7 @@ const Card = ({ title, description, date, author, type, image, id }) => {
         setDescription_detail(
           `Create a app react, with bdd !
           Stack : React, (redux,useContect)
-           api, mongo, mysql, postgre, graphql.
+           api, mongo, mysql, postgresql, graphql.
            Please for more information, I strongely recommand you to contact me`
         );
         break;
@@ -21,7 +21,7 @@ const Card = ({ title, description, date, author, type, image, id }) => {
         setDescription_detail(
           `Create a app symfony, with a bdd !
           Stack : Symfony,front
-           api,  mysql, postgre, graphql.
+           api,  mysql, postgresql, graphql.
            Please for more information, I strongely recommand you to contact me`
         );
         break;
@@ -42,7 +42,7 @@ const Card = ({ title, description, date, author, type, image, id }) => {
         setDescription_detail(
           `Create a app Mobile, with react native , bdd and api !
           Stack : React Native expo, 
-           api, mongo, mysql, postgre, graphql.
+           api, mongo, mysql, postgresql, graphql.
            Please for more information, I strongely recommand you to contact me`
         );
         break;
