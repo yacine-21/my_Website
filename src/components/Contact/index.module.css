@@ -73,3 +73,11 @@
 .bitmoji{
     @apply rounded-full w-40 mx-auto;
 }
+
+.emojiBloc{
+    @apply w-auto h-5 flex justify-around animate-bounce;
+}
+
+.iconBloc{
+    @apply sm:inline-flex hidden;
+}

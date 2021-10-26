@@ -14,7 +14,7 @@ const Contact = () => {
             <br />
             Fill in the form down here :)
             <br />
-            <span className="w-auto h-5 flex justify-around animate-bounce">
+            <span className={style.emojiBloc}>
               <img
                 className={style.emoji}
                 src="/images/icons/hand.svg"
@@ -78,7 +78,7 @@ const Contact = () => {
                 <br />
                 92140 Clamart
               </p>
-              <span className="sm:inline-flex hidden">
+              <span className={style.iconBloc}>
                 <a
                   href="https://twitter.com/Yacine_D_21"
                   className={style.item_footer}

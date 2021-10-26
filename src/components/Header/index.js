@@ -21,7 +21,7 @@ function Header() {
                   <a className={styles.item_header} href="/resume">
                     <span className={styles.item_li_header}>Resume</span>
                   </a>
-                  <a className={styles.item_header} href="/service">
+                  <a className={styles.item_header} href="/services">
                     <span className={styles.item_li_header}>Service</span>
                   </a>
                   <a className={styles.item_header} href="/contact">

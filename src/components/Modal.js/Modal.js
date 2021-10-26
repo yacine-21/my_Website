@@ -1,30 +1,28 @@
 import React from "react";
+import style from "./Modal.module.css";
 
-const Modal = ({ showModal, setShowModal }) => {
+const Modal = ({ setShowModal, description }) => {
   return (
     <>
-      <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-        <div className="relative w-auto my-6 mx-auto max-w-3xl">
+      <div className={style.containerModal}>
+        <div className={style.blocModal}>
           {/*content*/}
-          <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+          <div className={style.contentModal}>
             {/*header*/}
-            <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-              <h3 className="text-3xl font-semibold">Additional information</h3>
+            <div className={style.headerBlocModal}>
+              <h3 className={style.titleModal}>Additional information</h3>
             </div>
             {/*body*/}
-            <div className="relative p-6 flex-auto">
-              <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
-                I always felt like I could do anything. That’s the main thing
-                people are controlled by! Thoughts- their perception of
-                themselves! They're slowed down by their perception of
-                themselves. If you're taught you can’t do anything, you won’t do
-                anything. I was taught I could do everything.
-              </p>
+            <div className={style.bodyBlocModal}>
+              <p className={style.descriptionModal}>{description}</p>
+              <button className={style.buttonModal}>
+                <a href="/contact">contact me !</a>
+              </button>
             </div>
             {/*footer*/}
-            <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+            <div className={style.footerModal}>
               <button
-                className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                className={style.buttonFooterModal}
                 type="button"
                 onClick={() => setShowModal(false)}
               >
@@ -34,7 +32,7 @@ const Modal = ({ showModal, setShowModal }) => {
           </div>
         </div>
       </div>
-      <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+      <div className={style.blackScreenModal}></div>
     </>
   );
 };

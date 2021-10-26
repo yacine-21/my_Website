@@ -5,3 +5,7 @@
 .title{
     @apply text-center text-3xl underline m-8;
 }
+
+.containerService{
+    @apply w-screen xl:min-h-screen flex flex-col items-center;
+}
