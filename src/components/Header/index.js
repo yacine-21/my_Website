@@ -36,7 +36,7 @@ function Header() {
       <header className={styles.header2_header}>
         <div className={styles.bloc2_header}>
           <div className={styles.blocMail_header}>
-            <img src="images/icons/mail.svg" alt="mail" />
+            <img src="/images/icons/mail.svg" alt="mail" />
             <span className={styles.mail_header}>yacinelyoubi37@gmail.com</span>
           </div>
           <div className="flex items-center">

@@ -6,7 +6,7 @@ const Service = () => {
   return (
     <div className="w-screen xl:min-h-screen flex flex-col items-center">
       <h1 className={style.title}>What Can I do for you ?</h1>
-      <div class={style.container}>
+      <div className={style.container}>
         <Card
           title="Build an app React "
           author="yacine lyoubi"
