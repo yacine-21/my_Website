@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Modal.module.css";
+import style from "./index.module.css";
 
 const Modal = ({ setShowModal, description }) => {
   return (
