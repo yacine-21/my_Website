@@ -6,12 +6,15 @@ const Portfolio = () => {
     <main className={style.main}>
       <section className={style.section1}>
         <h1>If you wanna discover my works click or scroll down </h1>
-        <img
+        <a href="https://portfolioyacinelyoubi.gatsbyjs.io/">
+          All the magic happend here ;)
+        </a>
+        {/* <img
           className={style.scroll}
           draggable={false}
           src="/images/scroll-down.gif"
           alt="scroll down"
-        />
+        /> */}
       </section>
     </main>
   );
