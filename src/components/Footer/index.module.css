@@ -1,5 +1,5 @@
 .footer{
-    @apply flex flex-col  h-44 xl:h-52 items-center justify-between px-7  bg-red-50  md:flex-row sm:h-36;
+    @apply flex flex-col w-screen  h-44 xl:h-52 items-center justify-between px-7  bg-red-50  md:flex-row sm:h-36;
 }
 
 .sentence_footer{

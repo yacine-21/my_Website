@@ -7,30 +7,34 @@ function Header() {
   return (
     <>
       {isOpen ? (
-        <div className={styles.container_header}>
-          <div className={styles.bloc1_header}>
-            <div className={styles.header_header}>
-              <nav className={styles.nav_header}>
-                <a className={styles.item_header} href="/">
-                  <span className={styles.item_li_header}>Home</span>
-                </a>
-                <a className={styles.item_header} href="/portfolio">
-                  <span className={styles.item_li_header}>Portfolio</span>
-                </a>
-                <a className={styles.item_header} href="/resume">
-                  <span className={styles.item_li_header}>Resume</span>
-                </a>
-                <a className={styles.item_header} href="/services">
-                  <span className={styles.item_li_header}>Service</span>
-                </a>
-                <a className={styles.item_header} href="/contact">
-                  <span className={styles.item_li_header}>Contact</span>
-                </a>
-              </nav>
+        <>
+          <div className={styles.fantome}></div>
+          <div className={styles.container_header}>
+            <div className={styles.bloc1_header}>
+              <div className={styles.header_header}>
+                <nav className={styles.nav_header}>
+                  <a className={styles.item_header} href="/">
+                    <span className={styles.item_li_header}>Home</span>
+                  </a>
+                  <a className={styles.item_header} href="/portfolio">
+                    <span className={styles.item_li_header}>Portfolio</span>
+                  </a>
+                  <a className={styles.item_header} href="/resume">
+                    <span className={styles.item_li_header}>Resume</span>
+                  </a>
+                  <a className={styles.item_header} href="/services">
+                    <span className={styles.item_li_header}>Service</span>
+                  </a>
+                  <a className={styles.item_header} href="/contact">
+                    <span className={styles.item_li_header}>Contact</span>
+                  </a>
+                </nav>
+              </div>
             </div>
           </div>
-        </div>
-      ) : null}
+        </>
+      ) : undefined}
+      <div className={styles.fantome}></div>
       <header className={styles.header2_header}>
         <div className={styles.bloc2_header}>
           <div className={styles.blocMail_header}>

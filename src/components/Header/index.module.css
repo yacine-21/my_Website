@@ -1,8 +1,28 @@
 .container_header{
-    @apply w-screen h-screen bg-white  absolute z-40 lg:hidden;
+        @apply w-screen h-screen bg-gray-50 absolute z-40 lg:hidden;
+        animation: fadeIn 1s ease-in forwards;
+        -webkit-animation: fadeIn 1s ease-in forwards;
 }
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+        transform: translate3d(400px,0,0);
+        -webkit-transform: translate3d(400px,0,0);
+        -moz-transform: translate3d(400px,0,0);
+        -ms-transform: translate3d(400px,0,0);
+        -o-transform: translate3d(400px,0,0);
+}
+
+    to {
+        opacity:1;
+ 
+}
+}
+
+
 .bloc1_header{
-    @apply flex flex-col sm:flex-row items-center justify-center sm:justify-around;
+    @apply  h-screen flex flex-col sm:flex-row items-center justify-center sm:justify-around;
 }
 .header_header{
     @apply w-72 h-screen;
@@ -16,7 +36,7 @@
 }
 
 .header2_header{
-    @apply h-24 sm:h-32 flex items-center z-30 w-full border-b-2 border-red-200 ;
+    @apply h-24 sm:h-32 flex items-center z-20 w-full border-b-2 border-red-200 bg-white fixed top-0;
 }
 
 .bloc2_header{
@@ -45,4 +65,8 @@
 
 .item_li_header{
     @apply font-myFont mx-4 text-5xl font-normal;
+}
+
+.fantome{
+    @apply  h-24 sm:h-32;
 }

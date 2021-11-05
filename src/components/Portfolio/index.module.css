@@ -1,4 +1,12 @@
-.test{
-    background-color: aqua;
-    height: 100vh;
+.container{
+    @apply w-screen h-auto flex flex-col justify-around items-center
+}
+
+.scroll{
+    cursor: pointer;
+    outline: none;
+}
+
+.section1{
+    @apply h-screen flex flex-col justify-around items-center
 }
