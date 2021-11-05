@@ -4,7 +4,7 @@ const Error_404 = () => {
   return (
     <div className="bg-indigo-900 relative overflow-hidden h-screen">
       <img
-        src="images/404.svg"
+        src="/images/404.svg"
         className="absolute h-full w-full object-cover"
         alt="error_404"
       />
