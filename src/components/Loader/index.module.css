@@ -1,0 +1,53 @@
+.mainLoader{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://64.media.tumblr.com/d28f02c19e5545ec7f6088914e9e756d/1f9784b9aa1ae8ba-a5/s640x960/0f5675efe97282375ecd8fd596243505c8de7ebf.gifv");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:grayscale(20%);
+    -webkit-filter:grayscale(20%);
+}
+
+.titleLoader{
+    font-size: 5rem;
+    position: absolute;
+    animation: fadeIn 2s ease-in;
+    -webkit-animation: fadeIn 2s ease-in;
+}
+
+.Loader{
+    animation: fadeIn 3s ease-in;
+    -webkit-animation: fadeIn 3s ease-in;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        transform: scale(10%);
+        -webkit-transform: scale(10%);
+        -moz-transform: scale(10%);
+        -ms-transform: scale(10%);
+        -o-transform: scale(10%);
+}
+
+    100%{
+        transform: scale(100%);
+        transform: rotate(0deg);
+        opacity: 1;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+}
+
+.titleLoader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
