@@ -12,7 +12,7 @@
 }
 
 .contactUs{
-    @apply font-myFont sm:text-3xl text-2xl font-medium mb-4 text-red-800;
+    @apply  sm:text-3xl text-2xl font-medium mb-4 text-red-800;
 }
 
 .p_contact{
@@ -47,7 +47,7 @@
     @apply w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-600 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out;
 }
 .buttonContact{
-    @apply font-myFont flex mx-auto text-white bg-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg;
+    @apply  flex mx-auto text-white bg-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg;
 }
 
 .textInfoContainer  {

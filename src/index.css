@@ -1,3 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --MainTypo : "MainTypo";
+  --SecondTypo : "SecondTypo";
+  --orange: #EC8448;
+  --violet :#9E92AF;
+  --blue : #0E324A;
+}
+
+@font-face {
+  font-family: MainTypo;
+  src: url("Font/AAsianHiro-2O17X.otf");
+}
+
+@font-face {
+  font-family: SecondTypo;
+  src: url("Font/KarasumaGothic-LightItalic.otf");
+}
+
 
 *{
   margin: 0;
@@ -7,9 +29,4 @@
 
 body {
   overflow-x: hidden;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

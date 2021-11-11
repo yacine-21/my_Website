@@ -1,0 +1,13 @@
+.section{
+    @apply p-6 flex flex-col justify-center items-center;
+}
+
+.download{
+    @apply text-center text-4xl animate-pulse border-double border-4 bg-gray-400 m-5 p-5 rounded-full;
+    color: var(--orange);
+    background-color: var(--blue);
+}
+
+.image{
+    @apply object-cover w-full md:w-2/4 rounded-md xl:col-span-3 bg-gray-500;
+}

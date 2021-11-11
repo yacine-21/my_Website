@@ -1,10 +1,11 @@
 import React from "react";
+import style from "./index.module.css";
 
 const Resume = () => {
   return (
-    <section className="p-6 bg-gray-100 text-gray-800 flex flex-col justify-center items-center">
+    <section className={style.section}>
       <a
-        className="text-center text-white text-4xl animate-pulse border-double border-4 bg-gray-400 m-5 p-5 rounded-full hover:bg-gray-800"
+        className={style.download}
         href="/images/cv_YACINE_LYOUBI.pdf"
         download
         draggable="false"
@@ -14,8 +15,8 @@ const Resume = () => {
       </a>
       <img
         src="/images/YACINE_LYOUBI_CV_.jpg"
-        alt=""
-        className="object-cover w-full md:w-2/4 rounded-md xl:col-span-3 bg-gray-500"
+        alt="cv"
+        className={style.image}
       />
     </section>
   );

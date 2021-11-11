@@ -1,26 +1,34 @@
 
 
 .container{
-    @apply overflow-hidden hover:shadow-2xl rounded-3xl h-2/3  w-60 md:w-80 cursor-pointer mr-10 my-5  hover:border-l-4 border-red-400 border-b-4 ;
+    @apply overflow-hidden hover:shadow-2xl rounded-3xl h-2/3  w-60 md:w-80 cursor-pointer mr-10 my-5  hover:border-l-4;
+    border-bottom: 4px solid var(--orange)
+}
+
+.container:hover{
+    border-left: 4px solid var(--orange) 
 }
 
 .imageCard{
     @apply h-56 w-full object-cover;
 }
 .blocCard{
-    @apply bg-white dark:bg-gray-800 w-full p-4 flex flex-col items-center;
+    @apply bg-white  w-full p-4 flex flex-col items-center;
 }
 
 .textType{
-    @apply font-myFont text-red-600 font-medium;
+    @apply font-medium;
+    color: var(--orange);
 }
 
 .textTitle{
-    @apply font-myFont text-gray-800 dark:text-white text-xl font-medium mb-2;
+    @apply text-xl font-medium mb-2;
+    color: var(--blue)
 }
 
 .textDescription{
-    @apply text-gray-600 font-light ;
+    @apply font-light;
+    color: var(--violet)
 }
 
 .bloc2{
@@ -36,13 +44,14 @@
 }
 
 .authorText{
-    @apply text-gray-800 dark:text-white;
+    @apply text-gray-800 ;
 }
 
 .dateText{
-    @apply text-gray-400 dark:text-gray-300;
+    @apply text-gray-400 ;
 }
 
 .modalButton{
-    @apply px-6 py-1 w-32 my-3  text-red-600 hover:bg-red-200  font-bold rounded shadow hover:shadow-2xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-75;
+    @apply px-6 py-1 w-32 my-3 hover:bg-red-100  font-bold rounded shadow hover:shadow-2xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-75;
+    color: var(--orange);
 }

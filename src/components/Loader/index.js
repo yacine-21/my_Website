@@ -17,7 +17,7 @@ const LoaderPortfolio = () => {
       </h1>
       <Loader
         className={style.Loader}
-        type="Puff"
+        type="TailSpin"
         color="#EF482A"
         height={900}
         width={1000}

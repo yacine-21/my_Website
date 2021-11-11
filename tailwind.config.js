@@ -13,7 +13,7 @@ module.exports = {
   purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
     fontFamily: {
-      myFont: ["Kaushan Script", "cursive"],
+      myFont: ["AAsianHiro-2O17X.otf"],
     },
     extend: {
       backgroundImage: (theme) => ({}),

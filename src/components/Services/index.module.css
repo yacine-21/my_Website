@@ -4,6 +4,7 @@
 
 .title{
     @apply text-center text-3xl underline m-8;
+    color: var(--violet);
 }
 
 .containerService{
