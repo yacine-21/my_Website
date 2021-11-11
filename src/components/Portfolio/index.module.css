@@ -57,13 +57,3 @@
   .wrap div:nth-child(5) {
     background-color: #ff33ff;
   }
-
-
-@keyframes color {
-    0%{
-        color: #0033ff;
-    }
-    100%{
-        color: green;
-    }
-}
