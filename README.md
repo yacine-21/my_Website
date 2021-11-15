@@ -19,8 +19,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/yacine/<repo-name>">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/yacine/my_Website">
+    <img src="public/images/me2.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">My Readme file for this project </h3>
@@ -28,9 +28,9 @@
   <p align="center">
     If you want to clone this project and run it follow the steps below :)
     <br />
-    <a href="https://github.com/ytacine-21/<projet_url>">View Demo</a>
+    <a href="https://yacine-lyoubi-psi-eosin.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/yacine-21/<repo-name>/issues">Report Bug</a>
+    <a href="https://github.com/yacine-21/my_Website/issues">Report Bug</a>
     ·
   </p>
 </div>
@@ -38,9 +38,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-DESCRIPTION DU PROJET
+This is my website / Portfolio. <br>
+Everythings you need to know about me is <a href="https://yacine-lyoubi-psi-eosin.vercel.app/">here </a> :)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -65,18 +65,8 @@ This section list frameworks/libraries used to bootstrap your project.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/yacine-21/<repo-name>
+   git clone https://github.com/yacine-21/my_Website
    ```
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -99,29 +89,9 @@ Don't forget to give the project a star! Thanks again!
 
 Yacine - [@my_twitter](https://twitter.com/Yacine_D_21) - yacinelyoubi37@gmail.com
 
-Project Link: [https://github.com/yacine-21/<repo-name>](https://github.com/yacine-21/<repo-name>)
+Project Link: [here](https://yacine-lyoubi-psi-eosin.vercel.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
