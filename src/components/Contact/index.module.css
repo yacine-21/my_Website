@@ -1,83 +1,89 @@
-
-.section_contact{
-    @apply  text-red-600 relative;
+.section_contact {
+  @apply relative;
+  color: var(--orange);
 }
 
-.container_contact{
-    @apply container px-5 py-24 mx-auto;
+.container_contact {
+  @apply container px-5 py-24 mx-auto;
 }
 
-.bloc_text{
-    @apply flex flex-col text-center w-full mb-12;
+.bloc_text {
+  @apply flex flex-col text-center w-full mb-12;
 }
 
-.contactUs{
-    @apply  sm:text-3xl text-2xl font-medium mb-4 text-red-800;
+.contactUs {
+  @apply sm:text-3xl text-2xl font-medium mb-4;
+  color: var(--orange);
 }
 
-.p_contact{
-    @apply lg:w-2/3 mx-auto leading-relaxed text-base;
+.p_contact {
+  @apply lg:w-2/3 mx-auto leading-relaxed text-base;
 }
 
-.input_contact{
-    @apply w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-600 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
+.input_contact {
+  @apply w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-purple-200 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
 }
 
-.blocInput{
-    @apply relative;
+.blocInput {
+  @apply relative;
 }
 
-.sousBlocInput{
-    @apply lg:w-1/2 md:w-2/3 mx-auto;
+.sousBlocInput {
+  @apply lg:w-1/2 md:w-2/3 mx-auto;
 }
 
-.sousBlocInputFlex{
-    @apply flex flex-wrap -m-2;
+.sousBlocInputFlex {
+  @apply flex flex-wrap -m-2 justify-center items-center;
 }
 
-.inputMarge{
-    @apply p-2 w-1/2;
+.inputMarge {
+  @apply p-2 w-1/2;
 }
 
-.labelInput{
-    @apply leading-7 text-sm text-red-600;
+.labelInput {
+  @apply leading-7 text-sm;
+  color: var(--violet);
 }
 
-.textAreaContact{
-    @apply w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-600 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out;
+.textAreaContact {
+  @apply w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-purple-200 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out;
 }
-.buttonContact{
-    @apply  flex mx-auto text-white bg-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg;
-}
-
-.textInfoContainer  {
-    @apply p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center;
+.buttonContact {
+  @apply flex mx-auto text-white border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg;
+  background-color: var(--orange);
 }
 
-.containerInput{
-    @apply p-2 w-full;
-}
-    
-.images_footer{
-    @apply w-10 h-8 fill-current hover:opacity-30;
+.textInfoContainer {
+  @apply p-2 w-full pt-8 mt-8 border-t  text-center;
+  color: var(--orange);
+  border-color: var(--violet);
 }
 
-.infoContactSpacing{
-    @apply my-5 text-red-600;
+.containerInput {
+  @apply p-2 w-full;
 }
 
-.emoji{
-    @apply w-10 h-10;
+.images_footer {
+  @apply w-10 h-8 fill-current hover:opacity-30;
 }
 
-.bitmoji{
-    @apply rounded-full w-40 mx-auto;
+.infoContactSpacing {
+  @apply my-5;
+  color: var(--orange);
 }
 
-.emojiBloc{
-    @apply w-auto h-5 flex justify-around animate-bounce;
+.emoji {
+  @apply w-10 h-10;
 }
 
-.iconBloc{
-    @apply sm:inline-flex hidden;
+.bitmoji {
+  @apply rounded-full w-40 mx-auto;
+}
+
+.emojiBloc {
+  @apply w-auto h-5 flex justify-around animate-bounce;
+}
+
+.iconBloc {
+  @apply sm:inline-flex hidden;
 }

@@ -25,11 +25,6 @@ const Error_404 = () => {
               Website
             </button>
           </a>
-          <a href="https://portfolioyacinelyoubi.gatsbyjs.io/">
-            <button className="flex items-center px-6 py-2  transition ease-in duration-200 uppercase rounded-full bg-gray-800 text-white border-2 border-gray-900 focus:outline-none hover:bg-gray-500 animate-pulse">
-              Portfolio
-            </button>
-          </a>
         </div>
       </div>
     </div>

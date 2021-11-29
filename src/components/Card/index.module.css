@@ -1,57 +1,55 @@
-
-
-.container{
-    @apply overflow-hidden hover:shadow-2xl rounded-3xl h-2/3  w-60 md:w-80 cursor-pointer mr-10 my-5  hover:border-l-4;
-    border-bottom: 4px solid var(--orange)
+.container {
+  @apply sm:w-60 overflow-hidden hover:shadow-2xl  rounded-3xl h-2/3 md:w-80 cursor-pointer mr-10 my-5  hover:border-l-4;
+  border-bottom: 4px solid var(--orange);
 }
 
-.container:hover{
-    border-left: 4px solid var(--orange) 
+.container:hover {
+  border-left: 4px solid var(--orange);
 }
 
-.imageCard{
-    @apply h-56 w-full object-cover;
+.imageCard {
+  @apply h-56 w-full object-cover;
 }
-.blocCard{
-    @apply bg-white  w-full p-4 flex flex-col items-center;
-}
-
-.textType{
-    @apply font-medium;
-    color: var(--orange);
+.blocCard {
+  @apply bg-white  w-full p-4 flex flex-col items-center;
 }
 
-.textTitle{
-    @apply text-xl font-medium mb-2;
-    color: var(--blue)
+.textType {
+  @apply font-medium;
+  color: var(--orange);
 }
 
-.textDescription{
-    @apply font-light;
-    color: var(--violet)
+.textTitle {
+  @apply text-xl font-medium mb-2;
+  color: var(--blue);
 }
 
-.bloc2{
-    @apply flex items-center mt-4;
+.textDescription {
+  @apply font-light;
+  color: var(--violet);
 }
 
-.authorImage{
-    @apply mx-auto object-cover rounded-full h-10 w-10;
+.bloc2 {
+  @apply flex items-center mt-4;
 }
 
-.textContainer{
-    @apply flex flex-col justify-between ml-4 text-sm;
+.authorImage {
+  @apply mx-auto object-cover rounded-full h-10 w-10;
 }
 
-.authorText{
-    @apply text-gray-800 ;
+.textContainer {
+  @apply flex flex-col justify-between ml-4 text-sm;
 }
 
-.dateText{
-    @apply text-gray-400 ;
+.authorText {
+  @apply text-gray-800;
 }
 
-.modalButton{
-    @apply px-6 py-1 w-32 my-3 hover:bg-red-100  font-bold rounded shadow hover:shadow-2xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-75;
-    color: var(--orange);
+.dateText {
+  @apply text-gray-400;
+}
+
+.modalButton {
+  @apply px-6 py-1 w-32 my-3 hover:bg-red-100  font-bold rounded shadow hover:shadow-2xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-75;
+  color: var(--orange);
 }

@@ -33,7 +33,7 @@ function Header() {
             </div>
           </div>
         </>
-      ) : undefined}
+      ) : null}
       <div className={styles.fantome}></div>
       <header className={styles.header2_header}>
         <div className={styles.bloc2_header}>

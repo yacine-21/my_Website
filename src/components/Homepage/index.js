@@ -19,7 +19,7 @@ const Homepage = () => {
                 A digital solution developer designer full stack.
               </h2>
               <div className={styles.blocButton}>
-                <a href="/connect" className={styles.textButton}>
+                <a href="/contact" className={styles.textButton}>
                   CONNECT WITH ME
                 </a>
               </div>
