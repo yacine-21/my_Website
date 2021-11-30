@@ -5,9 +5,6 @@ import * as Yup from "yup";
 import style from "./index.module.css";
 
 const Contact = () => {
-  const test = process.env.REACT_APP_TEST;
-  console.log(test);
-
   const formik = useFormik({
     initialValues: {
       from_name: "",
@@ -31,7 +28,6 @@ const Contact = () => {
         .required("Required"),
     }),
     onSubmit: (values) => {
-      alert("message sent");
       emailjs
         .send(
           `${process.env.REACT_APP_SERVICE_ID_EMAILJS}`,
@@ -42,6 +38,7 @@ const Contact = () => {
         .then(
           (result) => {
             console.log(result.text);
+            alert("message sent");
             formik.resetForm();
           },
           (error) => {
