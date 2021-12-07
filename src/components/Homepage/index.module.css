@@ -1,53 +1,75 @@
 @tailwind utilities;
 
-
-.main{
-    @apply  bg-white relative flex flex-col justify-center items-center ;
-    min-height: 80vh;
-    
+.main {
+  @apply bg-white relative flex flex-col justify-center items-center;
+  min-height: 80vh;
 }
-.bloc{
-    @apply hidden md:block absolute -bottom-28 -left-32 w-96 h-96;
+.bloc {
+  @apply hidden md:block absolute -bottom-28 -left-32 w-96 h-96;
 }
-.sousBloc{
-    @apply absolute font-extrabold text-xl right-12 z-20 text-center top-1/4;
+.sousBloc {
+  @apply absolute font-extrabold text-xl right-12 z-20 text-center top-1/4;
 }
-.peinture{
-    @apply text-7xl;
+.peinture {
+  @apply text-7xl;
 }
 
-.bloc2{
-    @apply flex relative z-20 items-center;
+.bloc2 {
+  @apply flex relative z-20 items-center;
 }
-.textInfo{
-    @apply container mx-auto  flex flex-col justify-between items-center relative py-4 h-auto;
+.textInfo {
+  @apply container mx-auto  flex flex-col justify-between items-center relative py-4 h-auto;
 }
-.textInfo2{
-    @apply flex flex-col mt-5 overflow-y-hidden;
+.textInfo2 {
+  @apply flex flex-col mt-5 overflow-y-hidden;
 }
-.sentence1{
-    @apply text-3xl my-6 text-center;
-    color: var(--orange );
-    font-family: var(--MainTypo);
+.sentence1 {
+  @apply text-3xl my-6 text-center;
+  color: var(--orange);
+  font-family: var(--MainTypo);
 }
-.sentence2{
-    @apply max-w-3xl text-5xl md:text-6xl font-bold mx-auto text-center py-2;
-    font-family: var(--SecondTypo);
-    color: var(--orange);
+.sentence2 {
+  @apply max-w-3xl text-5xl md:text-6xl font-bold mx-auto text-center py-2;
+  font-family: var(--SecondTypo);
+  color: var(--orange);
+}
+.emoji {
+  @apply animate-ping;
+}
+.blocButton {
+  @apply flex items-center justify-center mt-4;
+}
+.textButton {
+  @apply uppercase py-2 my-2 px-4 md:mt-16 bg-transparent  hover:text-red-400 text-sm animate-pulse rounded-xl;
+  border: 2px solid var(--orange);
+  color: var(--violet);
+}
 
-}
-.emoji{
-    @apply animate-ping;
-}
-.blocButton{
-    @apply flex items-center justify-center mt-4 ;
-}
-.textButton{
-    @apply uppercase py-2 my-2 px-4 md:mt-16 bg-transparent  hover:text-red-400 text-sm animate-pulse rounded-xl;
-    border: 2px solid var(--orange);
-    color: var(--violet)
+.bitmoji {
+  @apply rounded-3xl w-52 mx-auto;
 }
 
-.bitmoji{
-    @apply rounded-3xl w-52 mx-auto;
+.image1 {
+  @apply rounded-3xl w-52 mx-auto hidden xl:block;
+  position: absolute;
+  left: 10em;
+  transform: rotate(-45deg);
+  border: var(--blue) 5px solid;
+  padding: 5px;
+}
+
+.image2 {
+  @apply rounded-3xl w-52 mx-auto hidden xl:block;
+  position: absolute;
+  right: 10em;
+  transform: rotate(45deg);
+  border: var(--blue) 5px solid;
+  padding: 5px;
+}
+
+.infoBis {
+  @apply hidden xl:block;
+  color: var(--blue);
+  text-decoration: underline;
+  padding-bottom: 5px;
 }

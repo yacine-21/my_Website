@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "./index.module.css";
-import Modal from "../Modal/index.js";
+import Modal from "../Modal/index.jsx";
 
 const Card = ({ title, description, date, author, type, image, id }) => {
   const [showModal, setShowModal] = useState(false);

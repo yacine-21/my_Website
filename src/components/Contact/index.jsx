@@ -15,9 +15,11 @@ const Contact = () => {
     },
     validationSchema: Yup.object({
       from_name: Yup.string()
+        .min(5, "Must be 5 characters long at least")
         .max(15, "Must be 15 characters or less")
         .required("Required"),
       lastName: Yup.string()
+        .min(5, "Must be 5 characters long at least")
         .max(20, "Must be 20 characters or less")
         .required("Required"),
       reply_to: Yup.string()
