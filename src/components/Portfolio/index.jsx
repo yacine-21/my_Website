@@ -2,9 +2,9 @@ import React from "react";
 import style from "./index.module.css";
 
 const Portfolio = () => {
-  return (
-    <>
-      <div class={style.wrap}>
+	return (
+		<>
+			{/* <div class={style.wrap}>
         <div>
           <h1>PROJET METEO JS VANILLA</h1>
 
@@ -17,9 +17,18 @@ const Portfolio = () => {
         <div>C</div>
         <div>D</div>
         <div>E</div>
-      </div>
-    </>
-  );
+      </div> */}
+			<div className={style.wrap}>
+				<h1>PORFOLIO EN COURS DE DEVELOPPEMENT</h1>
+				<p>Revenez plus tard</p>
+				<img
+					className={style.construction}
+					src='/images/construction.gif'
+					alt='construction'
+				/>
+			</div>
+		</>
+	);
 };
 
 export default Portfolio;

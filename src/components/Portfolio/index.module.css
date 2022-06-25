@@ -1,59 +1,42 @@
-
 @keyframes fadeIn {
-    0%{
-        opacity: 0;
-        transform: scale(10%);
-        -webkit-transform: scale(10%);
-        -moz-transform: scale(10%);
-        -ms-transform: scale(10%);
-        -o-transform: scale(10%);
-}
+	0% {
+		opacity: 0;
+		transform: scale(10%);
+		-webkit-transform: scale(10%);
+		-moz-transform: scale(10%);
+		-ms-transform: scale(10%);
+		-o-transform: scale(10%);
+		font-size: large;
+	}
 
-    100%{
-        transform: scale(100%);
-        transform: rotate(0deg);
-        opacity: 1;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
+	100% {
+		transform: scale(100%);
+		transform: rotate(0deg);
+		opacity: 1;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		font-size: xx-large;
+	}
 }
-}
-
 
 .wrap {
-    animation: fadeIn 2s linear;
-    -webkit-animation: fadeIn 2s linear;
-    width: 100vw;
-    height: calc(100vh - 6rem);
-    border: 1px solid #dddddd;
-    overflow: auto;
-    scroll-snap-type:  y mandatory;
-  }
-  .wrap div {
-    height: 100%;
-    color: #ffffff;
-    scroll-snap-align: start;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    font-weight: bold;
-  }
-  .wrap div:nth-child(1) {
-      animation: color 2s ease-in;
-      background-color: #ff3300;
-      -webkit-animation: color 2s ease-in;
+	animation: fadeIn 1s ease-in-out;
+	width: 100vw;
+	height: calc(100vh - 6rem);
+	overflow: auto;
 }
-  .wrap div:nth-child(2) {
-    background-color: #33ff00;
-  }
-  .wrap div:nth-child(3) {
-    background-color: #ffdd00;
-  }
-  .wrap div:nth-child(4) {
-    background-color: #0033ff;
-  }
-  .wrap div:nth-child(5) {
-    background-color: #ff33ff;
-  }
+
+.wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.construction {
+	border-radius: 10px;
+	width: 50%;
+	height: 50%;
+}
