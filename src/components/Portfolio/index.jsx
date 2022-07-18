@@ -19,8 +19,8 @@ const Portfolio = () => {
         <div>E</div>
       </div> */}
 			<div className={style.wrap}>
-				<h1>PORFOLIO EN COURS DE DEVELOPPEMENT</h1>
-				<p>Revenez plus tard</p>
+				<h1>PORFOLIO COMMING SOON</h1>
+				<p>PLEASE COME BACK LATER</p>
 				<img
 					className={style.construction}
 					src='/images/construction.gif'

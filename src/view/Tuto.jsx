@@ -2,15 +2,16 @@ import React from "react";
 import Header from "../components/Header";
 import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
+import Tutos from "../components/Tutos/tutos";
 
-const Portolio = () => {
+const Tuto = () => {
 	return (
 		<>
 			<Header />
-			<Portfolio />
+			<Tutos />
 			<Footer />
 		</>
 	);
 };
 
-export default Portolio;
+export default Tuto;
