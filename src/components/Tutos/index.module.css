@@ -24,12 +24,9 @@
 .wrap {
 	animation: fadeIn 1s ease-in-out;
 	width: 100vw;
-	height: calc(100vh - 6rem);
 	overflow: auto;
-}
-
-.wrap {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
@@ -38,4 +35,23 @@
 	border-radius: 10px;
 	width: 50%;
 	height: 50%;
+}
+
+.Title {
+	font-size: xx-large;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1rem;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 30vh;
+	width: 100%;
 }
