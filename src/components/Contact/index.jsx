@@ -167,6 +167,7 @@ const Contact = () => {
                   <br />
                   92140 Clamart
                 </p>
+                 <h3><a href="https://bio.link/yacine_lyoubi" target="_blank">All my links</a></h3>
                 <span className={style.iconBloc}>
                   <a
                     href="https://twitter.com/Yacine_D_21"
