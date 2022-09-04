@@ -28,6 +28,10 @@ function Header() {
 									<a className={styles.item_header} href='/contact'>
 										<span className={styles.item_li_header}>Contact</span>
 									</a>
+									<a className={styles.item_header} href='/tutos'>
+										<span className={styles.item_li_header}>My Tutos</span>
+									</a>
+
 								</nav>
 							</div>
 						</div>
