@@ -162,11 +162,6 @@ const Contact = () => {
               </div>
               <div className={style.textInfoContainer}>
                 <p>yacinelyoubi_tech@protonmail.com </p>
-                <p className={style.infoContactSpacing}>
-                  1 rue du soleil levant
-                  <br />
-                  92140 Clamart
-                </p>
                  <h3><a href="https://bio.link/yacine_lyoubi" target="_blank">All my links</a></h3>
                 <span className={style.iconBloc}>
                   <a
