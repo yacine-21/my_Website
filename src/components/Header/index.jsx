@@ -43,7 +43,7 @@ function Header() {
 				<div className={styles.bloc2_header}>
 					<div className={styles.blocMail_header}>
 						<img src='/images/icons/mail.svg' alt='mail' />
-						<span className={styles.mail_header}>yacinelyoubi37@gmail.com</span>
+						<span className={styles.mail_header}>yacinelyoubi_tech@protonmail.com</span>
 					</div>
 					<div className='flex items-center'>
 						<nav className={styles.navHeaderBloc}>
