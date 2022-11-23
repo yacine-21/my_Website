@@ -127,7 +127,7 @@ const Contact = () => {
                   Email Address
                 </label>
                 <input
-                  placeholder="yacinelyoubi37@gmail.com . . ."
+                  placeholder="yacinelyoubi_tech@protonmail.com . . ."
                   className={style.input_contact}
                   id="reply_to"
                   name="reply_to"
@@ -161,7 +161,7 @@ const Contact = () => {
                 </button>
               </div>
               <div className={style.textInfoContainer}>
-                <p>yacinelyoubi37@gmail.com </p>
+                <p>yacinelyoubi_tech@protonmail.com </p>
                 <p className={style.infoContactSpacing}>
                   1 rue du soleil levant
                   <br />
