@@ -6,7 +6,7 @@ const Resume = () => {
     <section className={style.section}>
       <a
         className={style.download}
-        href="/images/cv_YACINE_LYOUBI.pdf"
+        href="/images/Yacine_Lyoubi_CV_CYBER.pdf"
         download
         draggable="false"
         title="Download my cv here"
@@ -14,7 +14,7 @@ const Resume = () => {
         DOWNLOAD CV
       </a>
       <img
-        src="/images/YACINE_LYOUBI_CV_.jpg"
+        src="/images/Yacine_Lyoubi_CV_CYBER.pdf"
         alt="cv"
         className={style.image}
       />
