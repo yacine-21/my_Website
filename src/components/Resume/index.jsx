@@ -14,7 +14,7 @@ const Resume = () => {
         DOWNLOAD CV
       </a>
       <img
-        src="/images/Yacine_Lyoubi_CV_CYBER.pdf"
+        src="/images/Yacine_Lyoubi_CV_CYBER.png"
         alt="cv"
         className={style.image}
       />
