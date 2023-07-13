@@ -29,7 +29,7 @@ const Contact = () => {
 		}),
 		onSubmit: async values => {
 			try {
-        const url = "http://localhost:3000/send-email"
+        const url = "https://email-api-p4tw.onrender.com/send-email"
         const options = {
           headers: {'Content-Type': 'application/json'}
         };
