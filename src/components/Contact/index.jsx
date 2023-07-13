@@ -36,6 +36,7 @@ const Contact = () => {
 
         const response = await axios.post(url, values,options);
         console.log(response.data);
+        window.location.reload(false)
       } catch (error) {
         console.error(error);
 			}
