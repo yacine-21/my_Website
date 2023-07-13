@@ -6,9 +6,7 @@ app.use(cors());
 require('dotenv').config()
 app.use(express.json()); // Add this line to parse the request body as JSON
 
-app.post("/send-email", async (req, res) => {
-    console.log(req.body);
-  
+app.post("/send-email", async (req, res) => {  
     try {
       const transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
