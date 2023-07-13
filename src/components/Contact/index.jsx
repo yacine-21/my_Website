@@ -1,6 +1,5 @@
 import React from "react";
 import { useFormik } from "formik";
-import emailjs from "emailjs-com";
 import * as Yup from "yup";
 import style from "./index.module.css";
 import axios from "axios";
@@ -29,16 +28,16 @@ const Contact = () => {
 		}),
 		onSubmit: async values => {
 			try {
-        const url = "https://email-api-p4tw.onrender.com/send-email"
-        const options = {
-          headers: {'Content-Type': 'application/json'}
-        };
+				const url = "https://email-api-p4tw.onrender.com/send-email";
+				const options = {
+					headers: { "Content-Type": "application/json" }
+				};
 
-        const response = await axios.post(url, values,options);
-        console.log(response.data);
-        window.location.reload(false)
-      } catch (error) {
-        console.error(error);
+				const response = await axios.post(url, values, options);
+				console.log(response.data);
+				window.location.reload(false);
+			} catch (error) {
+				console.error(error);
 			}
 		}
 	});
