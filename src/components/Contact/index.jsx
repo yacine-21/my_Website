@@ -33,8 +33,7 @@ const Contact = () => {
 					headers: { "Content-Type": "application/json" }
 				};
 
-				const response = await axios.post(url, values, options);
-				console.log(response.data);
+				await axios.post(url, values, options);
 				window.location.reload(false);
 			} catch (error) {
 				console.error(error);
@@ -147,7 +146,7 @@ const Contact = () => {
 							<div className={style.textInfoContainer}>
 								<p>yacinelyoubi_tech@protonmail.com </p>
 								<h3>
-									<a href='https://bio.link/yacine_lyoubi' target='_blank'>
+									<a href='https://bio.link/yacine_lyoubi' target='blank'>
 										All my links
 									</a>
 								</h3>

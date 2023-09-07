@@ -28,11 +28,19 @@
   color: var(--orange);
   font-family: var(--MainTypo);
 }
+
 .sentence2 {
-  @apply max-w-3xl text-5xl md:text-6xl font-bold mx-auto text-center py-2;
+  @apply max-w-3xl text-5xl md:text-6xl font-bold mx-auto text-center py-2  overflow-x-hidden;
   font-family: var(--SecondTypo);
   color: var(--orange);
 }
+
+.typedText {
+  @apply  text-5xl md:text-6xl font-bold mx-auto text-center py-2  overflow-x-hidden;
+  font-family: var(--SecondTypo);
+  color: var(--orange);
+}
+
 .emoji {
   @apply animate-ping;
 }
@@ -50,19 +58,19 @@
 }
 
 .image1 {
-  @apply rounded-3xl w-52 mx-auto hidden xl:block;
+  @apply rounded-3xl w-64 mx-auto hidden xl:block;
   position: absolute;
   left: 10em;
-  transform: rotate(-45deg);
+  transform: rotate(-25deg);
   border: var(--blue) 5px solid;
   padding: 5px;
 }
 
 .image2 {
-  @apply rounded-3xl w-52 mx-auto hidden xl:block;
+  @apply rounded-3xl w-64 mx-auto hidden xl:block;
   position: absolute;
   right: 10em;
-  transform: rotate(45deg);
+  transform: rotate(25deg);
   border: var(--blue) 5px solid;
   padding: 5px;
 }

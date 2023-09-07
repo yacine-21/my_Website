@@ -1,7 +1,6 @@
 import React from "react";
-import Header from "../components/Header";
-import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Tutos from "../components/Tutos/tutos";
 
 const Tuto = () => {
