@@ -27,7 +27,7 @@ const Homepage = () => {
                             className={styles.bitmoji}
                         />
                         <p className={styles.infoBis}>
-                            I'm passionate about everything I do. ;)
+                            I'm passionate about everything I do !
                         </p>
                         <p className={styles.sentence1}>
                             Hi, I'm Yacine{' '}
