@@ -28,7 +28,7 @@ const Puzzle = () => {
             description: 'print the content of a file.',
             usage: 'cat <string>',
             fn: () =>
-                ' EN : Congrats, you found the first key to find the treasure \n key : GAME \n Next step : look the source code \n\n FR : Félicitations, tu as trouvé la première clé pour trouver le trésor \n clé : GAME \n Prochaine étape : Regarde le code source ',
+                ' EN : Congrats, you found the first key to find the treasure \n key : GAME \n Next step : look my gituhb repository "Treasure_game" \n\n FR : Félicitations, tu as trouvé la première clé pour trouver le trésor \n clé : GAME \n Prochaine étape : Regarde mon répértoire gituhb "Treasure_game" ',
         },
     }
 
