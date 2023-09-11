@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../components/Header";
-import Services from "../components/Services";
 import Footer from "../components/Footer";
+import SecretPath from "../components/SecretPath"
 
-const ServiceView = () => {
+const SecretPathView = () => {
   return (
     <>
       <Header />
-      <Services />
+      <SecretPath />
       <Footer />
     </>
   );
 };
 
-export default ServiceView;
+export default SecretPathView;

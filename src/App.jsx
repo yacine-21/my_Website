@@ -1,13 +1,16 @@
 import "tailwindcss/tailwind.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Portfolio from "./view/Porfolio";
+import PortfolioView from "./view/Porfolio";
 import Homepage from "./view/HomePage";
 import error_404 from "./view/Error";
-import Contact from "./view/Contact";
-import Services from "./view/Services";
-import Resume from "./view/Resume";
+import ContactView from "./view/Contact";
+import ServiceView from "./view/Services";
+import ResumeView from "./view/Resume";
 import Tuto from "./view/Tuto";
+import PuzzleView from "./view/Puzzle";
+import SecretPathView from "./view/SecretPathView"
+
 
 const App = () => {
 	return (
@@ -15,11 +18,13 @@ const App = () => {
 			<Router>
 				<Switch>
 					<Route path='/' exact component={Homepage} />
-					<Route path='/portfolio' exact component={Portfolio} />
-					<Route path='/contact' exact component={Contact} />
-					<Route path='/services' exact component={Services} />
-					<Route path='/resume' exact component={Resume} />
+					<Route path='/portfolio' exact component={PortfolioView} />
+					<Route path='/contact' exact component={ContactView} />
+					<Route path='/services' exact component={ServiceView} />
+					<Route path='/resume' exact component={ResumeView} />
 					<Route path='/tutos' exact component={Tuto} />
+					<Route path='/puzzle' exact component={PuzzleView} />
+					<Route path='/GAMEFANTASYINTUITIONEMPERORDETECTION' exact component={SecretPathView} />
 					<Route component={error_404} />
 				</Switch>
 			</Router>

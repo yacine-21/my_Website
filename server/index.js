@@ -2,9 +2,47 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const app = express();
+const mysql = require('mysql');
 app.use(cors());
 require('dotenv').config()
 app.use(express.json()); // Add this line to parse the request body as JSON
+
+
+const db = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME
+});
+
+db.connect((err) => {
+  if (err) {
+      console.error('Error connecting to the database:', err.stack);
+      return;
+  }
+  console.log('Connected to the database.');
+
+  // Create a fake table
+  const createTableQuery = `
+      CREATE TABLE IF NOT EXISTS fake_table (
+          id INT AUTO_INCREMENT PRIMARY KEY,
+          name VARCHAR(255) NOT NULL,
+          email VARCHAR(255) NOT NULL
+      );
+  `;
+
+  db.query(createTableQuery, (err, result) => {
+      if (err) {
+          console.error('Error creating the fake table:', err.stack);
+          return;
+      }
+      console.log('Fake table created successfully.');
+  });
+});
+
+
+
+
 
 app.post("/send-email", async (req, res) => {  
     try {
@@ -36,6 +74,8 @@ app.post("/send-email", async (req, res) => {
       res.status(500).send("An error occurred while sending the email");
     }
   });
+
+
   
 
 const PORT = process.env.REACT_APP_PORT;

@@ -4,6 +4,44 @@ import * as Yup from "yup";
 import style from "./index.module.css";
 import axios from "axios";
 const Contact = () => {
+
+	console.log(`
+EN:
+
+Congrats, you found the fourth key to find the treasure
+key : EMPEROR
+
+Step 4: Console Log.
+
+The console acknowledges your presence. To proceed, decrypt the following message: 
+
+Qeb cfcqe hbv fp 'ABQBZQFLK'
+Ix zfknrfèjb zié bpq 'ABQBZQFLK'
+
+Use the key item from the previous step to unlock the next step.
+
+Hint: Named after a great general of the Roman Empire who loved to shift letters.
+
+Good luck!
+
+FR:
+
+Félicitations, tu as trouvé la deuxième clé pour trouver le trésor
+clé : EMPEROR
+
+Étape 4: Console Log.
+
+La console reconnaît ta présence. Pour continuer, déchiffre le message suivant:
+
+Qeb cfcqe hbv fp 'ABQBZQFLK'
+Ix zfknrfèjb zié bpq 'ABQBZQFLK'
+
+Utilise l'objet clé de l'étape précédente pour débloquer la prochaine étape.
+
+Indice: Nommé d'après un grand général de l'Empire romain qui aimait décaler les lettres.
+
+Bonne chance!
+	`)
 	const formik = useFormik({
 		initialValues: {
 			from_name: "",
