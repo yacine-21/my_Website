@@ -15,8 +15,21 @@ Step 4: Console Log.
 
 The console acknowledges your presence. To proceed, decrypt the following message: 
 
-Qeb cfcqe hbv fp 'ABQBZQFLK'
-Ix zfknrfèjb zié bpq 'ABQBZQFLK'
+--------------------------------------------------------------------------------------------
+BK :
+Zlkdoxqp, vlr clrka qeb ixpq hbv ql cfka qeb qobxprob
+hbv : ABQBZQFLK
+
+IXPQ PQBM : Dl yxzh ql qeb qbojfkxi, Fq jxv exsb klq qlia vlr xii efp pbzobqp !
+Efkq : Alk'q yb pev xka xph clo "ebim" ;)
+
+CO : 
+Céifzfqxqflkp, qr xp qolrsé ix abokfèob zié mlro qolrsbo ib qoéplo
+zié : ABQBZQFLK
+
+Abokfèob éqxmb : Obqlrokbw xr qbojfkxi, fi kb slrp x mbrq-êqob mxp ifsoé qlrp pbp pbzobqp !
+Efkq : Kb plvbw mxp qfjfab bq abjxkabw ab i'xfab ;)
+--------------------------------------------------------------------------------------------
 
 Use the key item from the previous step to unlock the next step.
 
@@ -33,8 +46,21 @@ clé : EMPEROR
 
 La console reconnaît ta présence. Pour continuer, déchiffre le message suivant:
 
-Qeb cfcqe hbv fp 'ABQBZQFLK'
-Ix zfknrfèjb zié bpq 'ABQBZQFLK'
+--------------------------------------------------------------------------------------------
+BK :
+Zlkdoxqp, vlr clrka qeb ixpq hbv ql cfka qeb qobxprob
+hbv : ABQBZQFLK
+
+IXPQ PQBM : Dl yxzh ql qeb qbojfkxi, Fq jxv exsb klq qlia vlr xii efp pbzobqp !
+Efkq : Alk'q yb pev xka xph clo "ebim" ;)
+
+CO : 
+Céifzfqxqflkp, qr xp qolrsé ix abokfèob zié mlro qolrsbo ib qoéplo
+zié : ABQBZQFLK
+
+Abokfèob éqxmb : Obqlrokbw xr qbojfkxi, fi kb slrp x mbrq-êqob mxp ifsoé qlrp pbp pbzobqp !
+Efkq : Kb plvbw mxp qfjfab bq abjxkabw ab i'xfab ;)
+--------------------------------------------------------------------------------------------
 
 Utilise l'objet clé de l'étape précédente pour débloquer la prochaine étape.
 
