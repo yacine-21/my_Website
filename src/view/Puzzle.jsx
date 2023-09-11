@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../components/Header";
-import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
+import Puzzle from "../components/Puzzle";
 
-const PortfolioView = () => {
+const PuzzleView = () => {
 	return (
 		<>
 			<Header />
-			<Portfolio />
+			<Puzzle />
 			<Footer />
 		</>
 	);
 };
 
-export default PortfolioView;
+export default PuzzleView;

@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
-const Portolio = () => {
+const ContactView = () => {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ const Portolio = () => {
   );
 };
 
-export default Portolio;
+export default ContactView;
