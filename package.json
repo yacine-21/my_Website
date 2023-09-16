@@ -27,7 +27,8 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "GENERATE_SOURCEMAP=false craco build",
+    "build": "GENERATE_SOURCEMAP=false craco build && npm run obfuscate",
+    "obfuscate": "javascript-obfuscator build/static/js --output build/static/js --config obfuscatorConfig.json",
     "test": "craco test"
   },
   "eslintConfig": {
@@ -50,6 +51,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.8",
+    "javascript-obfuscator": "^4.1.0",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
