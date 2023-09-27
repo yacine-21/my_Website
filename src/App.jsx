@@ -10,6 +10,10 @@ import ResumeView from "./view/Resume";
 import Tuto from "./view/Tuto";
 import PuzzleView from "./view/Puzzle";
 import SecretPathView from "./view/SecretPathView"
+import PortfolioClassical from "./view/PortfolioClassical";
+import PortfolioGaming from "./view/PortfolioGaming";
+import PortfolioHacking from "./view/PortfolioHacking";
+
 
 
 const App = () => {
@@ -24,6 +28,9 @@ const App = () => {
 					<Route path='/resume' exact component={ResumeView} />
 					<Route path='/tutos' exact component={Tuto} />
 					<Route path='/puzzle' exact component={PuzzleView} />
+					<Route path='/portfolioClassical' exact component={PortfolioClassical} />
+					<Route path='/portfolioHacking' exact component={PortfolioHacking} />
+					<Route path='/portfolioGaming' exact component={PortfolioGaming} />
 					<Route path='/GAMEFANTASYINTUITIONEMPERORDETECTION' exact component={SecretPathView} />
 					<Route component={error_404} />
 				</Switch>
