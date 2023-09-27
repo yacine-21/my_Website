@@ -1,42 +1,36 @@
 @keyframes fadeIn {
-	0% {
-		opacity: 0;
-		transform: scale(10%);
-		-webkit-transform: scale(10%);
-		-moz-transform: scale(10%);
-		-ms-transform: scale(10%);
-		-o-transform: scale(10%);
-		font-size: large;
-	}
+    0% {
+        opacity: 0;
+        transform: scale(10%);
+        -webkit-transform: scale(10%);
+        -moz-transform: scale(10%);
+        -ms-transform: scale(10%);
+        -o-transform: scale(10%);
+        font-size: large;
+    }
 
-	100% {
-		transform: scale(100%);
-		transform: rotate(0deg);
-		opacity: 1;
-		-webkit-transform: rotate(0deg);
-		-moz-transform: rotate(0deg);
-		-ms-transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		font-size: xx-large;
-	}
+    100% {
+        transform: scale(100%);
+        transform: rotate(0deg);
+        opacity: 1;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        font-size: xx-large;
+    }
 }
 
 .wrap {
-	animation: fadeIn 1s ease-in-out;
-	width: 100vw;
-	height: calc(100vh - 6rem);
-	overflow: auto;
+    animation: fadeIn 1s ease-in-out;
+    height: calc(100vh - 8rem);
+    overflow: hidden;
 }
 
 .wrap {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    @apply flex justify-around items-center flex-col;
 }
 
-.construction {
-	border-radius: 10px;
-	width: 50%;
-	height: 50%;
+.sectionContainer {
+    @apply flex  justify-around items-center w-screen;
 }
