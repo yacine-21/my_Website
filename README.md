@@ -28,7 +28,7 @@
   <p align="center">
     If you want to clone this project and run it follow the steps below :)
     <br />
-    <a href="https://yacine-lyoubi-psi-eosin.vercel.app/">View Demo</a>
+    <a href="https://ysolutionscybertech.com/">View Demo</a>
     ·
     <a href="https://github.com/yacine-21/my_Website/issues">Report Bug</a>
     ·
@@ -40,7 +40,7 @@
 
 
 This is my website / Portfolio. <br>
-Everythings you need to know about me is <a href="https://yacine-lyoubi-psi-eosin.vercel.app/">here </a> :)
+Everythings you need to know about me is <a href="https://ysolutionscybertech.com/">here </a> :)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -89,7 +89,7 @@ Don't forget to give the project a star! Thanks again!
 
 Yacine - [@my_twitter](https://twitter.com/Yacine_D_21) - yacinelyoubi37@gmail.com
 
-Project Link: [here](https://yacine-lyoubi-psi-eosin.vercel.app/)
+Project Link: [here](https://ysolutionscybertech.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
