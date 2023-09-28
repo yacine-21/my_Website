@@ -4,7 +4,6 @@ import { getFirestore } from 'firebase/firestore'
 require('dotenv').config()
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-console.log(process.env.REACT_APP_API_KEY)
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_API_KEY,
