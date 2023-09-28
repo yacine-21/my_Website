@@ -1,10 +1,10 @@
 import React from 'react'
 
+
 function CardProject({ title, stacks, description, setOpenModal }) {
     const ClickModal = () => {
         setOpenModal(true)
     }
-
     return (
         <div
             onClick={() => ClickModal()}
@@ -26,8 +26,9 @@ function CardProject({ title, stacks, description, setOpenModal }) {
                     {stacks.join(' | ')}
                 </p>
             </div>
+
+
         </div>
     )
 }
-
 export default CardProject
