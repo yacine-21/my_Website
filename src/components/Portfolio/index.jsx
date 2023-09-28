@@ -45,10 +45,7 @@ const Portfolio = () => {
     ]
 
     useEffect(() => {
-        // Check the localStorage for the user's choice
         const userChoice = localStorage.getItem('mode')
-
-        // If a choice is found in localStorage, redirect to the corresponding route
         if (userChoice) {
             history.push(`/${userChoice}`)
         }
@@ -57,7 +54,7 @@ const Portfolio = () => {
     return (
         <>
             <div className={style.wrap}>
-                <p>PLEASE SELECT THE MODE :</p>
+                <p className={style.title}>PLEASE SELECT THE MODE :</p>
                 <section className={style.sectionContainer}>
                     {availableModeViews.map((availableModeView) => {
                         return (
