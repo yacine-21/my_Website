@@ -34,3 +34,7 @@
 .sectionContainer {
     @apply flex  justify-around items-center w-screen;
 }
+
+.title {
+    @apply text-2xl text-gray-800 tracking-wider mb-5 font-bold text-center;
+}
