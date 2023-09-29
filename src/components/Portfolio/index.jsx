@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import style from './index.module.css'
 import AvailableMode from '../AvailableMode'
 import { useHistory } from 'react-router-dom'
 
 const Portfolio = () => {
     let history = useHistory()
-
-    const [valueLocalStorage, setValueLocalStorage] = useState(null)
 
     const handleSelectMode = (mode) => {
         history.push(`/${mode}`)
